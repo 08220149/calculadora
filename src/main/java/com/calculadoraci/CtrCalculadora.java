@@ -28,7 +28,7 @@ public class CtrCalculadora extends HttpServlet {
                 out.print("O resultado da soma de " + calculadora.getValorA() + " + " + calculadora.getValorB() + " = " + calculadora.getSoma() + " <p>");
             } else {
                 if (request.getParameter("operacao").equals("subtracao")) {
-                    out.print("A diferença de " + calculadora.getValorA() + " - " + calculadora.getValorB() + " = " + calculadora.getDiferenca() + " <p>");
+                    out.print("A diferençaaaaaa de " + calculadora.getValorA() + " - " + calculadora.getValorB() + " = " + calculadora.getDiferenca() + " <p>");
                 } else {
                     if (request.getParameter("operacao").equals("multiplicacao")) {
                         out.print("O produto de " + calculadora.getValorA() + " * " + calculadora.getValorB() + " = " + calculadora.getProduto() + " <p>");
