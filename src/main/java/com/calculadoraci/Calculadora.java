@@ -4,7 +4,7 @@ public class Calculadora {
 
     private double valorA;
     private double valorB;
-
+    // Comentario de teste
     public Calculadora() {
         this(0.0, 0.0);
     }
