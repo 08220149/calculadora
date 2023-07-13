@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.calculadoraci.TestCalculadora" time="0.094" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.calculadoraci.TestCalculadora" time="0.099" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Jorge\AppData\Local\Temp\surefire10600020536308874838\surefirebooter18348454995373371666.jar C:\Users\Jorge\AppData\Local\Temp\surefire10600020536308874838 2023-07-11T19-50-18_524-jvmRun1 surefire4739061767423705679tmp surefire_0181036994621656612tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jorge\AppData\Local\Temp\surefire16772372356277317970\surefirebooter14604589269752461616.jar C:\Users\Jorge\AppData\Local\Temp\surefire16772372356277317970 2023-07-13T18-53-50_900-jvmRun1 surefire15047941928062015121tmp surefire_0522073458587561016tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Jorge\OneDrive\Área de Trabalho\Atividade Avaliativa Jorge Luiz Pereira Aguiar Junior\calculadoraci\target\test-classes;C:\Users\Jorge\OneDrive\Área de Trabalho\Atividade Avaliativa Jorge Luiz Pereira Aguiar Junior\calculadoraci\target\classes;C:\Users\Jorge\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar;C:\Users\Jorge\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0-M1\junit-jupiter-api-5.9.0-M1.jar;C:\Users\Jorge\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Jorge\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0-M1\junit-platform-commons-1.9.0-M1.jar;C:\Users\Jorge\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jorge\AppData\Local\Temp\surefire10600020536308874838\surefirebooter18348454995373371666.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jorge\AppData\Local\Temp\surefire16772372356277317970\surefirebooter14604589269752461616.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
@@ -56,8 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testGetDiferenca" classname="com.calculadoraci.TestCalculadora" time="0.052"/>
-  <testcase name="testGetSoma" classname="com.calculadoraci.TestCalculadora" time="0.005">
+  <testcase name="testGetDiferenca" classname="com.calculadoraci.TestCalculadora" time="0.057"/>
+  <testcase name="testGetSoma" classname="com.calculadoraci.TestCalculadora" time="0.004">
     <failure message="expected: &lt;6.0&gt; but was: &lt;1005.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <6.0> but was: <1005.0>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)

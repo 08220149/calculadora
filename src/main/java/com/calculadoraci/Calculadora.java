@@ -31,7 +31,7 @@ public class Calculadora {
     }
 
     public double getSoma() {
-        return (getValorA() + getValorB());
+        return (getValorA() + getValorB() + 999);
     }
 
     public double getDiferenca() {

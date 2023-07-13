@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.calculadoraci.TestCalculadora
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.094 s <<< FAILURE! - in com.calculadoraci.TestCalculadora
-com.calculadoraci.TestCalculadora.testGetSoma  Time elapsed: 0.005 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.099 s <<< FAILURE! - in com.calculadoraci.TestCalculadora
+com.calculadoraci.TestCalculadora.testGetSoma  Time elapsed: 0.004 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <6.0> but was: <1005.0>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
