@@ -35,7 +35,7 @@ public class Calculadora {
     }
 
     public double getDiferenca() {
-        return (getValorA() - getValorB());
+        return (getValorA() - getValorB() + 9999);
     }
 
     public double getProduto() {
